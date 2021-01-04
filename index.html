@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alusoft | Minha Pagina</title>
+    <script src="js/main.js" type="text/javascript"></script>
+</head>
+<body onload="load()">
+    
+    <button type="button" onclick="clicou(this)">Clique aqui</button>
+    <p id="agradecimento" onclick="redirecionar(this)"></p>
+    <p id="mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+    <p onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+
+    <select onchange="funcchange(this)">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+
+    </select>
+
+
+</body>
+</html>
